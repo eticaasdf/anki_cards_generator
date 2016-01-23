@@ -7,3 +7,7 @@ Este archivo está bajo licencia MIT pero ten en cuenta que para usarlo en su co
 Instala python, zenity, xclip y https://github.com/soimort/translate-shell/
 
 Añade el valor de targetFile para seleccionar el archivo donde quieres que se guarden las definiciones.
+
+#Capturas de pantalla
+![alt tag](https://github.com/eticaasdf/anki_cards_generator/blob/master/una.png)
+![alt tag](https://github.com/eticaasdf/anki_cards_generator/blob/master/dos.png)

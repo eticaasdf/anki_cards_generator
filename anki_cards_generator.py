@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import os
-#TODO: Permitir editar la definición
+#TODO: Allow to edit the definition
 
-targetFile='/home/david/Downloads/Anki Decks/ankiVocDeck.txt'
+targetFile='/path/to/file/myFile.txt'
 
 def pref(x):
     return {
@@ -47,7 +47,7 @@ if len(concept) == 1:
         line = f.readline() # read example
         line = line[line.find("\"")+1:]
        
-        #remove concept variations
+        #remove concept variations in the examples
         line = line[: -1].replace(concept + "s", ".....")
         line = line.replace(concept + "es", ".....")
         line = line.replace(concept + "ed", ".....")

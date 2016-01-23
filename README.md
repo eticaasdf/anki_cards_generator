@@ -5,4 +5,5 @@ Este archivo está bajo licencia MIT pero ten en cuenta que para usarlo en su co
 
 #Instalación y puesta en marcha
 Instala python, zenity, xclip y https://github.com/soimort/translate-shell/
+
 Añade el valor de targetFile para seleccionar el archivo donde quieres que se guarden las definiciones.

@@ -27,6 +27,7 @@ if len(concept) == 1:
     f = open('.translation', 'r')
     concept = f.readline() 
     concept = concept[:-1]
+    concept = concept.lower()
     phonetic = f.readline()
     if phonetic[0] == '/': #There was a phonetic line
         f.readline() # Now there is an empty line then
